@@ -50,8 +50,7 @@
 #default mount location in case no default storage device associated on port 3
     mntpnt='/home/pi/Videos'
   fi
-
-
+  
 #list all video files in location and tree recursively currently only finding mp4 files, could change to an ini file with valid .ext list
   grep -rl mp4 $mntpnt > /tmp/vidlist
 
